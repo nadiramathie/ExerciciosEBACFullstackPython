@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+@font-face {
+    font-family: 'Old London'; /* Provide a name for your font */
+    src: url('/Fontes/OldLondon.ttf') format('truetype'); /* URL to the font file and format */
+    /* Add other font properties like font-weight and font-style if needed */
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Old London', serif;
+    font-size:21px;
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+article header{
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    color:#B3B3B3;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none; /* Hide the bullets */
+}
+
+a {
+    color:red;
+}
+
+.creation-date {
+
+}
